@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "sprout",
+  "description": "The Sprout plugin for Claude: make, change and look after the simple apps your family, club or group needs.",
+  "owner": {
+    "name": "Sprout",
+    "email": "support@sprout.is",
+    "url": "https://sprout.is"
+  },
+  "plugins": [
+    {
+      "name": "sprout",
+      "source": "./plugins/sprout",
+      "category": "productivity",
+      "tags": [
+        "apps",
+        "app-builder",
+        "mcp"
+      ]
+    }
+  ]
+}

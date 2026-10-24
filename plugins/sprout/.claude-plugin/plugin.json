@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "sprout",
+  "displayName": "Sprout",
+  "version": "1.0.0",
+  "description": "Make, change and look after the simple apps your family, club or group needs, right from Claude. Sprout hosts them and keeps them running.",
+  "author": {
+    "name": "Sprout",
+    "email": "support@sprout.is",
+    "url": "https://sprout.is"
+  },
+  "homepage": "https://sprout.is",
+  "repository": "https://github.com/opencloud-ai/sprout-plugins",
+  "license": "MIT",
+  "keywords": [
+    "apps",
+    "app-builder",
+    "family",
+    "groups",
+    "mcp",
+    "sprout"
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://docs.sprout.is/getting-started/mcp",
+  "supportUrl": "https://sprout.is/support",
+  "privacyPolicyUrl": "https://sprout.is/privacy",
+  "termsOfServiceUrl": "https://sprout.is/terms"
+}

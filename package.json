@@ -1,0 +1,15 @@
+{
+  "name": "sprout-plugins",
+  "private": true,
+  "description": "The Sprout plugin for Claude Code, Cowork and Claude chat.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node --test scripts/sprout-plugin.test.mjs",
+    "validate": "npx --yes @anthropic-ai/claude-code@2.1.310 plugin validate ./plugins/sprout --strict && npx --yes @anthropic-ai/claude-code@2.1.310 plugin validate . --strict",
+    "check:live": "node scripts/check-live-tools.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

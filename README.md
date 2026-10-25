@@ -10,14 +10,14 @@ they browse the plugin.
 
 ```bash
 claude plugin marketplace add opencloud-ai/sprout-plugins
-claude plugin install sprout@sprout
+claude plugin install sprout-is@sprout
 ```
 
 On Claude Code 2.1.275 or later, one command in a session does both:
-`/plugin install sprout --marketplace opencloud-ai/sprout-plugins`.
+`/plugin install sprout-is --marketplace opencloud-ai/sprout-plugins`.
 
 Start a new session or run `/reload-plugins`. The skill runs by itself for
-matching requests and is also available as `/sprout:build-apps`. Sessions
+matching requests and is also available as `/sprout-is:build-apps`. Sessions
 with a terminal follow Sprout's CLI path; the connector is for sessions
 without one, and its sign-in is under `/mcp`.
 
@@ -26,7 +26,7 @@ without one, and its sign-in is under `/mcp`.
 Add `opencloud-ai/sprout-plugins` as a marketplace under **Customize >
 Plugins** on claude.ai and install **Sprout**. The plugin brings the skill
 and lists the connector on its **Connectors** tab, where you connect it.
-Plugins installed on claude.ai also reach Claude Code as `sprout@synced`.
+Plugins installed on claude.ai also reach Claude Code as `sprout-is@synced`.
 
 Without the plugin, people can still add `https://mcp.sprout.is` under
 **Customize > Connectors**. They then get Sprout's tools without the skill.
@@ -62,7 +62,7 @@ To try a local copy before you push:
 
 ```bash
 claude plugin marketplace add ./
-claude plugin install sprout@sprout
+claude plugin install sprout-is@sprout
 ```
 
 ## Release

@@ -45,16 +45,18 @@ test("the marketplace lists the one Sprout plugin in this repository", async () 
   assert.equal(marketplace.plugins.length, 1);
 
   const [entry] = marketplace.plugins;
-  assert.equal(entry.name, "sprout");
+  assert.equal(entry.name, "sprout-is");
   assert.equal(entry.name, manifest.name);
   assert.equal(entry.source, "./plugins/sprout");
   assert.equal(entry.version, undefined, "plugin.json alone sets the version");
+  // Installs from before the rename move to the new name.
+  assert.deepEqual(marketplace.renames, { sprout: "sprout-is" });
 });
 
 test("the manifest carries the fields the directory listing reads", async () => {
   const manifest = await readJson("plugins/sprout/.claude-plugin/plugin.json");
 
-  assert.equal(manifest.name, "sprout");
+  assert.equal(manifest.name, "sprout-is");
   assert.equal(manifest.displayName, "Sprout");
   assert.match(manifest.version, /^\d+\.\d+\.\d+$/);
   assert.equal(manifest.license, "MIT");

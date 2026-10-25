@@ -1,8 +1,7 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
-  "name": "sprout",
+  "name": "sprout-is",
   "displayName": "Sprout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make, change and look after the simple apps your family, club or group needs, right from Claude. Sprout hosts them and keeps them running.",
   "author": {
     "name": "Sprout",

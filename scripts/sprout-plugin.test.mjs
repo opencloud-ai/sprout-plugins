@@ -57,7 +57,7 @@ test("the manifest carries the fields the directory listing reads", async () => 
   const manifest = await readJson("plugins/sprout/.claude-plugin/plugin.json");
 
   assert.equal(manifest.name, "sprout-is");
-  assert.equal(manifest.displayName, "Sprout");
+  assert.equal(manifest.displayName, "Sprout.is");
   assert.match(manifest.version, /^\d+\.\d+\.\d+$/);
   assert.equal(manifest.license, "MIT");
   assert.equal(manifest.repository, repository);

@@ -61,7 +61,7 @@ test("the manifest carries the fields the directory listing reads", async () => 
   assert.match(manifest.version, /^\d+\.\d+\.\d+$/);
   assert.equal(manifest.license, "MIT");
   assert.equal(manifest.repository, repository);
-  assert.equal(manifest.author.name, "Sprout");
+  assert.equal(manifest.author.name, "Sprout.is");
   assert.ok(manifest.description.length > 0);
 
   for (const field of [

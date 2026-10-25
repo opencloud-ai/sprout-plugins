@@ -1,10 +1,10 @@
 {
   "name": "sprout-is",
   "displayName": "Sprout.is",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Make, change and look after the simple apps your family, club or group needs, right from Claude. Sprout hosts them and keeps them running.",
   "author": {
-    "name": "Sprout",
+    "name": "Sprout.is",
     "email": "support@sprout.is",
     "url": "https://sprout.is"
   },

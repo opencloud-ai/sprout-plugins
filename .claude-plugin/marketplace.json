@@ -9,7 +9,7 @@
   },
   "plugins": [
     {
-      "name": "sprout",
+      "name": "sprout-is",
       "source": "./plugins/sprout",
       "category": "productivity",
       "tags": [
@@ -18,5 +18,8 @@
         "mcp"
       ]
     }
-  ]
+  ],
+  "renames": {
+    "sprout": "sprout-is"
+  }
 }

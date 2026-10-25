@@ -27,10 +27,10 @@ running.
 In Claude Code, install the plugin from inside a session:
 
 ```text
-/plugin install sprout --marketplace opencloud-ai/sprout-plugins
+/plugin install sprout-is --marketplace opencloud-ai/sprout-plugins
 ```
 
-The guide is then also available as `/sprout:build-apps`.
+The guide is then also available as `/sprout-is:build-apps`.
 
 ## What it connects to
 
